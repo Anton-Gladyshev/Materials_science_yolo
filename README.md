@@ -1,10 +1,9 @@
-# Materials_science_yolo
-Yolo v8 applied for atom tracking in Materials science
+# Materials science Yolo
+yolo v8 (you look only once) object detection network applied for atom tracking in Materials science
 
-This is essentially a wrapper for yoloV8 object detection network that allows to track atoms in electron microscopy images.
+This library is essentially a wrapper that allows to track atoms in electron microscopy images. Here you can find weights that are sutable for fining small round blobs in an image. 
 
-A full description of Yolo is avalible at the ultralytics website, please reffer to 
-https://docs.ultralytics.com/models/yolov8/
+A full description of yolo is avalible at ultralytics website, please concider reading https://docs.ultralytics.com/models/yolov8/.
 
 ## Setting Up the Python Environment and Installing MSYOLO
 
