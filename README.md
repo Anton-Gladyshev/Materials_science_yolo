@@ -40,9 +40,13 @@ label, x (fraction of total image), y (fraction of total image), width (fraction
 0 0.541436 0.041328 0.066569 0.069106
 ```
 4. Sort the images and .txt files
+
 4.1. Create main folder `master_folder_name`. 
+
 4.2. Within the `master_folder_name` you have to create folders `images` and `labels`.
+
 4.3. Within both folders  `images` and `labels` you have to create folders `train` and `val`.
+
 Summarizing steps 4.1-4.3:
 ```bash
 $ mkdir master_folder_name
