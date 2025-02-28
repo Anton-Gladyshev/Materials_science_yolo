@@ -39,6 +39,7 @@ label, x (fraction of total image), y (fraction of total image), width (fraction
 ...
 0 0.541436 0.041328 0.066569 0.069106
 ```
+
 4. Sort the images and .txt files
 
 4.1. Create main folder `master_folder_name`. 
