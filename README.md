@@ -29,6 +29,15 @@ To crate a train dataset i suggest following steps:
 1. Go to https://www.makesense.ai and upload your images
 2. Pick the atoms with the avalible tools (I created only a single class `atom`)
 3. Export the data in zipped yolo format, you will get a .txt file with coordiantes for each image you uploaded
+3.1 (Optional )If you don't want to use the https://www.makesense.ai, you can create your own .txt data. In this case, for each image you create a .txt file with 5 colomns:
+label, x (fraction of total image), y (fraction of total image), width (fraction of total image), height (fraction of total image). The final file should look more-or-less like this:
+```txt
+0 0.211310 0.208672 0.072003 0.073171
+0 0.396072 0.168022 0.072003 0.073171
+0 0.492528 0.140921 0.080154 0.067751
+...
+0 0.541436 0.041328 0.066569 0.069106
+```
 4. Sort the images and .txt files
 4.1 Create main folder `master_folder_name`. 
 4.2 Within the `master_folder_name` you have to create folders `images` and `labels`.
